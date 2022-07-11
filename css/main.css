@@ -1,0 +1,322 @@
+.header {
+    width: 100%;
+
+}
+
+p a {
+    color: #5fcf80;
+    text-decoration: none;
+    line-height: 1px;
+    font: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation ul li a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.header-navigation ul li .btn-primary {
+    margin-left: 22px;
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.banner {
+    background-image: url('../images/2.jpg');
+    background-size: 100%;
+    background-position: left;
+
+
+}
+
+.banner-wrapper h1 {
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 120px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(190, 10, 10);
+    font-family: "Poppins", sans-serif
+}
+
+.banner-wrapper h4 {
+    font-family: "Raleway", sans-serif;
+    padding-left: 120px;
+}
+
+.banner-wrapper {
+    height: 350px;
+    width: 100%;
+}
+
+.banner-wrapper span {
+    padding-left: 120px;
+}
+
+.btn-secondary {
+    margin-left: 22px;
+    background: #d7dacb;
+    color: rgb(17, 16, 16);
+    border-radius: 50px;
+    padding: 8px 25px;
+    transition: 0.3s;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+}
+
+.about-image img {
+    margin-left: auto;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.info h2 {
+    font-size: 30px;
+}
+
+.info p {
+    font-size: 20px;
+}
+
+.info ul {
+    font-size: 20px;
+}
+
+.info ul li {
+    padding: 5px;
+}
+
+.status {
+    background-color: #f6f7f6;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.status div {
+    flex-basis: 100px;
+}
+
+.status div p {
+    font-size: 48px;
+    display: block;
+    color: #5fcf80;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.status div span {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #37423b;
+}
+
+.summary-content {
+    margin-top: 70px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left {
+    width: 30%;
+    background-color: #5fcf80;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.right {
+    display: flex;
+}
+
+.right .para {
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    border: 1px solid #eef0ef;
+    margin: 15px;
+}
+
+.para h4 {
+    text-align: center;
+}
+
+.trainer-flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+.trainer-flexbox .trainer-list {
+    width: 32%;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #eef0ef;
+}
+
+.trainer-flexbox .trainer-list img {
+    width: 100%;
+
+}
+
+
+.trainer-flexbox .trainer-list h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+
+.trainer-flexbox .trainer-list h3 {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+
+.trainer-flexbox .trainer-list p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaaaaa;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+.footer-content .footer-1 {}
+
+.footer-content .footer-2 ul li {
+    list-style-type: none;
+}
+
+.footer-content .footer-3 {}
+
+.footer-content .footer-3 form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #e0e5e2;
+}
+
+.testimonials .container {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(161, 240, 240);
+}
+
+.testi-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testi-card {
+    display: flex;
+    background-color: #fff;
+    box-shadow: #ccc 0 0 10px;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+.testi-left img {
+    width: 80px;
+    margin-left: -50px;
+    border: 4px solid #fff;
+}
+
+.testi-flex-container .testi-flex-content {
+    width: 50%;
+    padding: 0 25px;
+}
+
+.testi-flex-content .testi-card {
+    width: 60%;
+}
+.portfolio-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-flex-item{
+    width: 33.33%;
+}
+.portfolio-card{
+    position: relative;
+    overflow: hidden;
+
+}
+.portfolio-card img{
+    max-width: 100%;
+    transition: all 0.3s;
+    transform: scale(1);
+}
+.portfolio-card:hover img{
+    transform: scale(1.5);
+
+}
+.portfolio-overlay h3{
+    
+}
+.portfolio-overlay h4{
+    
+    
+}
+span a{
+    margin-top: -200px;
+    
+}
+.portfolio-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .41);
+    opacity: 0;
+    transition: .3s all;
+}
+.portfolio-card:hover .portfolio-overlay{
+    opacity: 1;
+}
