@@ -233,7 +233,9 @@ p a {
     list-style-type: none;
 }
 
-.footer-content .footer-3 {}
+.footer-content .footer-3 {
+    width: 50%;
+}
 
 .footer-content .footer-3 form {
     margin-top: 30px;
@@ -310,10 +312,6 @@ p a {
 
 .portfolio-overlay h4 {}
 
-span a {
-    margin-top: -200px;
-
-}
 
 .portfolio-overlay {
     display: flex;
